@@ -9,8 +9,7 @@ $(function() {
     window.weather = weather;
 
     // Put your code here. Don't change any other code in this file. You will be sad.
-    var markup = "<strong>The current weather...</strong>";
-    markup += " will be here when I finish this exercise."
+    var markup = "The current weather is...";
     // End of your code. No, really. Don't change anything below this, or above line 11.
 
     // Takes the contents of the "markup" variable (which should contain HTML)
