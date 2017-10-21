@@ -34,4 +34,13 @@ let shuffledDeck = function() {
   return deck;
 }
 
-console.log(dealHand(5));
+let dealHand = function(numberOfCards) {
+  let deck = shuffledDeck();
+  let hand = [];
+  for (let i=0; i<numberOfCards.length; i++) {
+    hand.push(deck[i])
+  }
+  return hand;
+}
+
+console.log(dealHand(7));

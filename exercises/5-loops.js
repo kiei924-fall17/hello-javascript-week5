@@ -10,3 +10,8 @@
 let ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"];
 let suits = ["Clubs", "Diamonds", "Hearts", "Spades"];
 
+for (let i=0; i<ranks.length; i++) {
+  for (let j=0; j<suits.length; j++) {
+    console.log(ranks[i] + " of " + suits[j]);
+  }
+}
